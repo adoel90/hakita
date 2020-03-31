@@ -20,8 +20,6 @@ const theme = createMuiTheme({
       
 });
     
-    
-// const useStyles = makeStyles(theme => ({
 const styles = theme => ({
 
     root: {
@@ -103,12 +101,16 @@ const styles = theme => ({
         height: '42px',
         borderRadius: 5,
         // background: 'linear-gradient(1deg, #c1272d, #c1272d 30%, #d1354a 67%, #f28181)',
-        background: 'linear-gradient(1deg, #1a457f, #1a457f 30%, #3f62a2 67%, #3f62a2)',
+        // background: 'linear-gradient(1deg, #1a457f, #1a457f 30%, #3f62a2 67%, #3f62a2)',
+        backgroundColor: '#1a237e',
 
         border:0,
         fontFamily:'Nunito',
         marginLeft:theme.spacing(1),
-        color: 'white'
+        color: 'white',
+        '&:hover': {
+            backgroundColor: '#000051'
+        }
     },
     buttonModal: {
 

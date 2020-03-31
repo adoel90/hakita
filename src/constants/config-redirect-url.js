@@ -1,5 +1,6 @@
 export const ToMaintenance = '/maintenance';
 export const ToDashboard = '/dashboard';
+export const ToHome = '/home';
 export const ToRegister = '/register';
 export const ToLogin = '/login';
 export const ToOTP = '/otp';

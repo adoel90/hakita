@@ -20,7 +20,7 @@ import { navigate } from 'hookrouter';
 import { URL_API } from '../../../../constants/config-api';
 import PictInfo from '../../../../assets/images/icon-info-24px.svg';
 import Redirect from '../../../../utilities/Redirect';
-import { ToDashboard, ToMaintenance, ToLogin, ToCompletionMemberhipOptions, ToCompletionProfile } from '../../../../constants/config-redirect-url';
+import { ToDashboard, ToMaintenance, ToLogin, ToCompletionMemberhipOptions, ToCompletionProfile, ToHome} from '../../../../constants/config-redirect-url';
 import { MessageErrorValidationEmail } from '../../../../constants/config-messages-user';
 
 import DialogError from '../../../../components/DialogError';
@@ -71,8 +71,8 @@ const styles = theme => ({
         width: '425px',
         height: '42px',
         borderRadius: 5,
-        background: 'linear-gradient(1deg, #1a457f, #1a457f 30%, #3f62a2 67%, #3f62a2)',
-        
+        // background: 'linear-gradient(1deg, #1a457f, #1a457f 30%, #3f62a2 67%, #3f62a2)',
+        backgroundColor: '#1a237e',
         border:0,
         fontFamily:'Nunito',
         marginLeft:theme.spacing(1),
@@ -81,6 +81,9 @@ const styles = theme => ({
             width: 366,
             // backgroundColor: 'red',
         },
+        '&:hover': {
+            backgroundColor: '#000051'
+        }
     },
     buttonModal: {
 
@@ -357,8 +360,8 @@ const FormSubmit = props => {
                         localStorage.setItem('userToken', response.data.data.access_token);
                         localStorage.setItem('status_user_login', JSON.stringify(response.data.data));
     
-                        // navigate(ToDashboard);
-                        Redirect(ToDashboard);
+                        
+                        Redirect(ToHome);
                     }
                 };
             })

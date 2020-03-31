@@ -10,11 +10,7 @@ import LogoGoogle from '../../../assets/images/logo-google.png';
 import LogoLinked from '../../../assets/images/logo-in.png';
 import PictBackgroundImage from '../../../assets//images/Group_765.png';
 import FormSubmit from './ComponentSignin/FormSubmit';
-
-import Uploader from '../../7WD/Goal/ComponentsGoalResult/Uploader';
-
-// const merge = require('deepmerge')
-
+    
 const theme = createMuiTheme({
     
     palette: {

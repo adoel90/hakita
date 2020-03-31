@@ -5,7 +5,7 @@ import preval from 'preval.macro';
 
 import {routes} from './routes';
 import { ToLogin } from './constants/config-redirect-url';
-import NotFoundPage from './screen/Explore/NotFoundPage';
+import NotFoundPage from './components/NotFoundPage';
 
 
 const App = () => {  

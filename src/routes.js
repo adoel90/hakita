@@ -8,13 +8,15 @@ import CircularProgress  from '@material-ui/core/CircularProgress';
     `````````````
 */
 import Header from './layout/Header';
+import HeaderHome from './layout/HeaderHome';
 
 // import ViewSignin from './screen/AM/Signin/ViewSignin';//* Move to Lazy Component
 import ViewRegister from './screen/AM/Signup/ViewRegister';
+import ViewHome from './screen/AM/Home/ViewHome';
 
 import {   
 
-  ToLogin, ToRegister,   
+  ToLogin, ToRegister, ToHome
 
 } from './constants/config-redirect-url';
 
@@ -53,4 +55,11 @@ export const routes = {
       </Fragment>
     ),
 
+    [ToHome]: () => ( 
+      
+      <div>    
+          <HeaderHome /> 
+          <ViewHome />
+      </div>      
+    ),
   };
