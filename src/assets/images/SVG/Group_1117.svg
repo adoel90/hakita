@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.664" height="23" viewBox="0 0 26.664 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c1c1c1;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #c1c1c1;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_1117" data-name="Group 1117" transform="translate(-1492.712 -249)">
+    <rect id="Rectangle_799" data-name="Rectangle 799" class="cls-1" width="26.664" height="3" rx="1.5" transform="translate(1492.712 259)"/>
+    <rect id="Rectangle_798" data-name="Rectangle 798" class="cls-1" width="26.664" height="3" rx="1.5" transform="translate(1492.712 251)"/>
+    <g id="Ellipse_281" data-name="Ellipse 281" class="cls-2" transform="translate(1501 249)">
+      <circle class="cls-3" cx="3.5" cy="3.5" r="3.5"/>
+      <circle class="cls-4" cx="3.5" cy="3.5" r="2.5"/>
+    </g>
+    <g id="Ellipse_282" data-name="Ellipse 282" class="cls-2" transform="translate(1510 257)">
+      <circle class="cls-3" cx="3.5" cy="3.5" r="3.5"/>
+      <circle class="cls-4" cx="3.5" cy="3.5" r="2.5"/>
+    </g>
+    <rect id="Rectangle_800" data-name="Rectangle 800" class="cls-1" width="26.664" height="3" rx="1.5" transform="translate(1492.712 267)"/>
+    <g id="Ellipse_283" data-name="Ellipse 283" class="cls-2" transform="translate(1495 265)">
+      <circle class="cls-3" cx="3.5" cy="3.5" r="3.5"/>
+      <circle class="cls-4" cx="3.5" cy="3.5" r="2.5"/>
+    </g>
+  </g>
+</svg>

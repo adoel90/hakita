@@ -1,0 +1,269 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  pointer-events: none;
+	width :30px;
+}
+
+.App-logo-social {
+	
+   cursor:pointer;
+  /*pointer-events: none; */
+	width :17px;
+	margin-left:8px;
+}
+
+.App-text {
+	margin-left:15px;
+	height:12px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* initially label is below input */
+/*
+ .floating-label-field {
+	display: inline-block;
+	position:absolute;
+	left: 15px;
+	top: 16px;
+	transition: all 150ms ease-in;
+	color: #676767;
+ }
+ 
+ .floating-label-field.field-active {
+	  transform: translateY(-25px);
+	  font-size: .9em;
+	  color: #000;
+	  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff;
+ }
+ 
+.floating-label {
+  -webkit-appearance: none !important;
+ }
+ */
+ /*floating label*/
+ .field {                                            /* This keeps the label and input field together*/
+    position: relative;
+    margin: 45px auto;
+}
+
+/*
+input               {                          
+  font-size:18px;
+  padding:10px;
+  width:100%;
+} */
+
+
+/* initially label is below input */
+ .label1 {
+  display: inline-block;
+  position:absolute;
+  left: 15px;
+  top: 16px;
+  transition: all 150ms ease-in;
+  color: #676767;
+ }
+/* when the label is activated, it jumps up (using translateY) */
+        /* you could add animation here as well */
+ .label1.field-active {
+  transform: translateY(-25px);
+  font-size: .9em;
+  color: #000;
+  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff;
+ }
+.floating-label {
+  -webkit-appearance: none !important;
+ }
+ 
+ /*floating label*/
+
+.App-icon-20 {
+   cursor:normal;
+  /*pointer-events: none; */
+	width :20px;
+}
+
+.App-icon-30 {
+   cursor:normal;
+  /*pointer-events: none; */
+	width :30px;
+}
+
+ .App-icon-40 {
+   cursor:normal;
+  /*pointer-events: none; */
+	width :40px;
+}
+
+.App-icon-60 {
+   cursor:normal;
+  /*pointer-events: none; */
+	width :60px;
+}
+
+.App-icon-70 {
+   cursor:normal;
+  /*pointer-events: none; */
+	width :70px;
+}
+
+.App-icon-80 {
+   cursor:normal;
+  /*pointer-events: none; */
+	width :80px;
+}
+
+.App-icon-100 {
+   cursor:normal;
+  /*pointer-events: none; */
+	width :100px;
+}
+
+.App-icon-300 {
+   cursor:normal;
+  /*pointer-events: none; */
+	width :300px;
+}
+
+
+.w200 {
+	width:200px;
+}
+
+.w100 {
+	width:100px;
+}
+
+.w70 {
+	width:70px;
+}
+
+.w150 {
+	width:150px;
+}
+
+div#bank ul{
+	list-style-type: none;
+	color: black;
+	margin:0px;
+	border-bottom:1px solid #CCC;
+}
+
+
+/* add style only to the 'li' elements inside the id="one" div. this means 'li' inside the 'ul' inside the 'div' which its id="one" */
+div#bank ul li{
+	display: block;
+	margin-left: -40px;
+	padding:12px;
+	cursor:pointer;
+	border-top:1px solid #CCC;
+}
+
+div#bank ul li:hover { 
+  background: #CCC;
+  color:black; /*
+  border:solid 0px black;
+  border-bottom:0; */
+}
+
+.timer {
+	font-size:30px;
+	font-weight:bold;
+	padding:0px 6px;
+}
+
+.m-left-10{
+	margin-left:10px
+}
+
+.m-left-20{
+	margin-left:20px
+}
+
+.m-left-30{
+	margin-left:30px
+}
+
+.m-left-20{
+	margin-left:20px
+}
+
+.m-right-10{
+	margin-right:10px
+}
+
+.m-right-20{
+	margin-right:20px
+}
+
+.m-right-100{
+	margin-right:100px
+}
+
+.m-right-120{
+	margin-right:120px
+}
+
+.m-right-150{
+	margin-right:150px
+}
+
+input[type=range].ps7 {margin: 10px 0;-webkit-appearance: none;height: 24px;/* width: 100%; */} 
+input[type=range].ps7:focus { outline: none; } 
+input[type=range].ps7::-webkit-slider-runnable-track { animate: 0.2s;background: #2497E3;border: 0px solid #000000;border-radius: 1px;box-shadow: 0px 0px 0px #000000;cursor: pointer;height: 5px;width: 100%; } 
+input[type=range].ps7::-webkit-slider-thumb { background: #A1D0FF;border: 1px solid #2497E3;border-radius: 25px;box-shadow: 0px 0px 0px #000000;cursor: pointer;height: 18px;margin-top: -7px;webkit-appearance: none;width: 18px; } 
+input[type=range].ps7:focus::-webkit-slider-runnable-track { background: #2497E3; } 
+input[type=range].ps7::-moz-range-track { animate: 0.2s;background: #2497E3;border: 0px solid #000000;border-radius: 1px;box-shadow: 0px 0px 0px #000000;cursor: pointer;height: 5px;width: 100%; } 
+input[type=range].ps7::-moz-range-thumb { background: #A1D0FF;border: 1px solid #2497E3;border-radius: 25px;box-shadow: 0px 0px 0px #000000;cursor: pointer;height: 18px;width: 18px; } 
+input[type=range].ps7::-ms-track { animate: 0.2s;background: transparent;border-color: transparent;color: transparent;cursor: pointer;height: 5px;width: 100%; } 
+input[type=range].ps7::-ms-fill-lower { background: #2497E3;border: 0px solid #000000;border-radius: 2px;box-shadow: 0px 0px 0px #000000; } 
+input[type=range].ps7::-ms-fill-upper { background: #2497E3;border: 0px solid #000000;border-radius: 2px;box-shadow: 0px 0px 0px #000000; } 
+input[type=range].ps7::-ms-thumb {margin-top:1px; background: #A1D0FF;border: 1px solid #2497E3;border-radius: 25px;box-shadow: 0px 0px 0px #000000;cursor: pointer;height: 18px;width: 18px; } 
+input[type=range].ps7:focus::-ms-fill-lower { background: #2497E3; } input[type=range].ps7:focus::-ms-fill-upper { background: #2497E3; }
+
+.slider-crop {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 5px;
+  border-radius: 5px;   
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider-crop::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; 
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider-crop::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+

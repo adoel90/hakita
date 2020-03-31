@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="503" height="214" viewBox="0 0 503 214">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #2a2828;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        font-family: Nunito-Bold, Nunito;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #f6f6f6;
+        stroke: #e9e9e9;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: rgba(0,0,0,0);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-6 {
+        font-size: 14px;
+        font-family: Nunito-SemiBold, Nunito;
+        font-weight: 600;
+      }
+
+      .cls-7 {
+        fill: #707070;
+        font-size: 12px;
+        font-family: Nunito-Regular, Nunito;
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-12, .cls-15, .cls-9 {
+        fill: none;
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-12 {
+        stroke: #bcc3cf;
+      }
+
+      .cls-13 {
+        fill: #bcc3cf;
+      }
+
+      .cls-14, .cls-16 {
+        stroke: none;
+      }
+
+      .cls-16 {
+        fill: #e2a311;
+      }
+
+      .cls-17 {
+        filter: url(#Rectangle_2029);
+      }
+    </style>
+    <filter id="Rectangle_2029" x="0" y="0" width="503" height="214" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#265aa8" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.416" y1="1.114" x2="1.08" y2="-0.302" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4ea0e8"/>
+      <stop offset="1" stop-color="#dad6ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#262261"/>
+      <stop offset="1" stop-color="#6b688b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ec233e"/>
+      <stop offset="1" stop-color="#ffcce9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_3316" data-name="Group 3316" transform="translate(-630.165 -246.588)">
+    <g class="cls-17" transform="matrix(1, 0, 0, 1, 630.17, 246.59)">
+      <rect id="Rectangle_2029-2" data-name="Rectangle 2029" class="cls-1" width="473" height="184" rx="10" transform="translate(15 10)"/>
+    </g>
+    <text id="Buat_goal_baru" data-name="Buat goal baru" class="cls-2" transform="translate(662.165 289.588)"><tspan x="0" y="0">Buat goal baru</tspan></text>
+    <g id="Rectangle_2064" data-name="Rectangle 2064" class="cls-3" transform="translate(662.509 314.914)">
+      <rect class="cls-14" width="437.209" height="101.595" rx="5"/>
+      <rect class="cls-15" x="0.5" y="0.5" width="436.209" height="100.595" rx="4.5"/>
+    </g>
+    <g id="Group_3314" data-name="Group 3314" transform="translate(674.631 322.996)">
+      <path id="Path_1585" data-name="Path 1585" class="cls-4" d="M2272.016,7144.793q0-3.816,0-7.632a1.126,1.126,0,0,1,1.241-1.255h15.37a1.122,1.122,0,0,1,1.238,1.224q0,7.7,0,15.4a1.119,1.119,0,0,1-1.207,1.221q-7.72,0-15.439,0a1.117,1.117,0,0,1-1.2-1.224Q2272.015,7148.662,2272.016,7144.793Z" transform="translate(-2272.016 -7135.906)"/>
+      <path id="Path_1586" data-name="Path 1586" class="cls-5" d="M2340.288,7191.838l-2.541,2.416c-.418.4-.681.4-1.1,0-.209-.2-.425-.4-.627-.6a.5.5,0,0,1,0-.794q1.92-1.846,3.856-3.676a.543.543,0,0,1,.812-.008q1.958,1.858,3.9,3.732a.491.491,0,0,1,0,.768c-.208.218-.433.421-.654.626-.43.4-.651.4-1.07.005q-1.074-1.019-2.14-2.045Z" transform="translate(-2331.375 -7185.291)"/>
+      <path id="Path_1587" data-name="Path 1587" class="cls-5" d="M2340.288,7266.736c-.861.818-1.7,1.616-2.541,2.415-.418.4-.681.4-1.1,0-.209-.2-.425-.4-.627-.6a.5.5,0,0,1,0-.794q1.92-1.846,3.856-3.676a.542.542,0,0,1,.812-.008q1.958,1.857,3.9,3.731a.491.491,0,0,1,0,.769c-.208.218-.433.421-.654.626-.43.4-.651.4-1.07,0q-1.074-1.018-2.14-2.045Z" transform="translate(-2331.375 -7254.966)"/>
+    </g>
+    <text id="Meningkatkan_profit_perusahaan" data-name="Meningkatkan profit perusahaan" class="cls-6" transform="translate(707.165 336.588)"><tspan x="0" y="0">Meningkatkan profit perusahaan</tspan></text>
+    <text id="_0_-_500.000.000" data-name="0 - 500.000.000" class="cls-7" transform="translate(707.165 369.588)"><tspan x="0" y="0">0 - 500.000.000</tspan></text>
+    <g id="Group_3323" data-name="Group 3323" transform="translate(674.631 356.626)">
+      <rect id="Rectangle_2040" data-name="Rectangle 2040" class="cls-8" width="1.504" height="12.034" transform="translate(10.53 5.138)"/>
+      <path id="Subtraction_38" data-name="Subtraction 38" class="cls-8" d="M8.524,4.513A2.26,2.26,0,0,1,6.4,3.009H0V1.5H6.4a2.257,2.257,0,0,1,4.256,0h6.4v1.5h-6.4A2.261,2.261,0,0,1,8.524,4.513Zm0-3.009a.752.752,0,1,0,.752.752A.753.753,0,0,0,8.525,1.5Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 3.632, 0)"/>
+      <path id="Rectangle_2043" data-name="Rectangle 2043" class="cls-8" d="M1.5,0H4.011a1.5,1.5,0,0,1,1.5,1.5v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A1.5,1.5,0,0,1,1.5,0Z" transform="translate(8.524 15.668)"/>
+      <g id="Polygon_7" data-name="Polygon 7" class="cls-9" transform="translate(16.547 6.138)">
+        <path class="cls-14" d="M2.151,1.429a1,1,0,0,1,1.715,0L5.108,3.5a1,1,0,0,1-.857,1.514H1.766A1,1,0,0,1,.909,3.5Z"/>
+        <path class="cls-16" d="M 3.008531093597412 0.9436526298522949 C 3.340176105499268 0.9436526298522949 3.671821117401123 1.10548734664917 3.866021156311035 1.429157257080078 L 5.10836124420166 3.499727487564087 C 5.508281230926514 4.166247367858887 5.028171062469482 5.014217376708984 4.250871181488037 5.014217376708984 L 1.766191005706787 5.014217376708984 C 0.9888911247253418 5.014217376708984 0.5087809562683105 4.166247367858887 0.9087009429931641 3.499727487564087 L 2.151041030883789 1.429157257080078 C 2.345241069793701 1.10548734664917 2.676886081695557 0.9436526298522949 3.008531093597412 0.9436526298522949 Z"/>
+      </g>
+      <g id="Polygon_8" data-name="Polygon 8" class="cls-9" transform="translate(0 1.625)">
+        <path class="cls-14" d="M2.151,1.429a1,1,0,0,1,1.715,0L5.108,3.5a1,1,0,0,1-.857,1.514H1.766A1,1,0,0,1,.909,3.5Z"/>
+        <path class="cls-16" d="M 3.008531093597412 0.9436526298522949 C 3.340176105499268 0.9436526298522949 3.671821117401123 1.10548734664917 3.866021156311035 1.429157257080078 L 5.10836124420166 3.499727487564087 C 5.508281230926514 4.166247367858887 5.028171062469482 5.014217376708984 4.250871181488037 5.014217376708984 L 1.766191005706787 5.014217376708984 C 0.9888911247253418 5.014217376708984 0.5087809562683105 4.166247367858887 0.9087009429931641 3.499727487564087 L 2.151041030883789 1.429157257080078 C 2.345241069793701 1.10548734664917 2.676886081695557 0.9436526298522949 3.008531093597412 0.9436526298522949 Z"/>
+      </g>
+      <path id="Subtraction_39" data-name="Subtraction 39" class="cls-10" d="M2.508,2.507A2.51,2.51,0,0,1,0,0H5.015A2.51,2.51,0,0,1,2.508,2.507Z" transform="translate(17.048 9.651)"/>
+      <path id="Subtraction_40" data-name="Subtraction 40" class="cls-11" d="M2.508,2.507A2.51,2.51,0,0,1,0,0H5.015A2.51,2.51,0,0,1,2.508,2.507Z" transform="translate(0.501 5.138)"/>
+    </g>
+    <g id="Group_2242" data-name="Group 2242" transform="translate(-4286.044 -1211.412)">
+      <g id="Rectangle_1444" data-name="Rectangle 1444" class="cls-12" transform="translate(4962 1601.431)">
+        <rect class="cls-14" width="15.028" height="12.881" rx="2"/>
+        <rect class="cls-15" x="0.5" y="0.5" width="14.028" height="11.881" rx="1.5"/>
+      </g>
+      <g id="Rectangle_1445" data-name="Rectangle 1445" class="cls-12" transform="translate(4962 1601.431)">
+        <path class="cls-14" d="M2,0H13.028a2,2,0,0,1,2,2V6.441a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z"/>
+        <path class="cls-15" d="M2,.5H13.028a1.5,1.5,0,0,1,1.5,1.5V5.441a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V2A1.5,1.5,0,0,1,2,.5Z"/>
+      </g>
+      <rect id="Rectangle_1446" data-name="Rectangle 1446" class="cls-13" width="0.716" height="2.863" transform="translate(4964.147 1600)"/>
+      <rect id="Rectangle_1447" data-name="Rectangle 1447" class="cls-13" width="0.716" height="2.863" transform="translate(4974.166 1600)"/>
+    </g>
+    <text id="_1_Januari_2020_-_31_Desember_2020" data-name="1 Januari 2020 - 31 Desember 2020" class="cls-7" transform="translate(707.165 399.588)"><tspan x="0" y="0">1 Januari 2020 - 31 Desember 2020</tspan></text>
+  </g>
+</svg>

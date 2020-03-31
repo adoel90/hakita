@@ -1,0 +1,18 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    color:#D1354A ;
+    text-decoration:none;
+    background-color:transparent
+}
+
+a:hover {
+    
+    color:#C1272D ;
+    text-decoration:none;
+    font-weight: normal;
+};
+

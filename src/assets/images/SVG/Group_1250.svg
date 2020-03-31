@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84.845" height="24" viewBox="0 0 84.845 24">
+  <g id="Group_1250" data-name="Group 1250" transform="translate(-1573.712 -284)">
+    <text id="Filter" transform="translate(1616.557 302)" fill="#c1c1c1" font-size="18" font-family="Nunito" font-weight="600"><tspan x="0" y="0">Filter</tspan></text>
+    <g id="Group_1117" data-name="Group 1117" transform="translate(81 35)">
+      <rect id="Rectangle_799" data-name="Rectangle 799" width="26.664" height="3" rx="1.5" transform="translate(1492.712 259)" fill="#c1c1c1"/>
+      <rect id="Rectangle_798" data-name="Rectangle 798" width="26.664" height="3" rx="1.5" transform="translate(1492.712 251)" fill="#c1c1c1"/>
+      <g id="Ellipse_281" data-name="Ellipse 281" transform="translate(1501 249)" fill="#fff" stroke="#c1c1c1" stroke-width="2">
+        <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+        <circle cx="3.5" cy="3.5" r="2.5" fill="none"/>
+      </g>
+      <g id="Ellipse_282" data-name="Ellipse 282" transform="translate(1510 257)" fill="#fff" stroke="#c1c1c1" stroke-width="2">
+        <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+        <circle cx="3.5" cy="3.5" r="2.5" fill="none"/>
+      </g>
+      <rect id="Rectangle_800" data-name="Rectangle 800" width="26.664" height="3" rx="1.5" transform="translate(1492.712 267)" fill="#c1c1c1"/>
+      <g id="Ellipse_283" data-name="Ellipse 283" transform="translate(1495 265)" fill="#fff" stroke="#c1c1c1" stroke-width="2">
+        <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+        <circle cx="3.5" cy="3.5" r="2.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

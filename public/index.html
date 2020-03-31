@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  
+    <title>Hakita | Urusan legalitas menjadi lebih gampang</title>
+    <style type="text/css">
+
+      /*
+        `````````````
+        DISPLAY FLEX
+
+        `````````````
+      */
+      .flex-container {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .row {
+
+          width: auto;
+          /* border: 1px solid blue; */
+      }
+
+      .flex-item {      
+        text-align: center;
+      }
+
+      /* #2 */
+      .outDiv {
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      /*
+        ```````````````
+        LINEAR PROGRESS
+
+        ```````````````
+      */
+      .pure-material-progress-linear {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          border: none;
+          height: 0.25em;      
+          color: rgb(var(--pure-material-primary-rgb, 245, 66, 161));
+          background-color: rgba(var(--pure-material-primary-rgb, 245, 66, 161), 0.12);
+
+          font-size: 16px;
+      }
+
+      .pure-material-progress-linear::-webkit-progress-bar {
+          background-color: transparent;
+      }
+
+      /* Determinate */
+      .pure-material-progress-linear::-webkit-progress-value {
+          background-color: currentColor;
+          transition: all 0.2s;
+      }
+
+      .pure-material-progress-linear::-moz-progress-bar {
+          background-color: currentColor;
+          transition: all 0.2s;
+      }
+
+      .pure-material-progress-linear::-ms-fill {
+          border: none;
+          background-color: currentColor;
+          transition: all 0.2s;
+      }
+
+      /* Indeterminate */
+      .pure-material-progress-linear:indeterminate {
+          background-size: 200% 100%;
+          background-image: linear-gradient(to right, transparent 50%, currentColor 50%, currentColor 60%, transparent 60%, transparent 71.5%, currentColor 71.5%, currentColor 84%, transparent 84%);
+          animation: pure-material-progress-linear 2s infinite linear;
+      }
+
+      .pure-material-progress-linear:indeterminate::-moz-progress-bar {
+          background-color: transparent;
+      }
+
+      .pure-material-progress-linear:indeterminate::-ms-fill {
+          animation-name: none;
+      }
+
+      @keyframes pure-material-progress-linear {
+          0% {
+              background-size: 200% 100%;
+              background-position: left -31.25% top 0%;
+          }
+          50% {
+              background-size: 800% 100%;
+              background-position: left -49% top 0%;
+          }
+          100% {
+              background-size: 400% 100%;
+              background-position: left -102% top 0%;
+          }
+      }
+
+      /*
+        ```````````````````````
+        ANIMATION FADE-IN IMAGE
+
+        ```````````````````````
+      */
+
+      .animated {
+            background-repeat: no-repeat;
+            background-position: left top;
+            -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }
+
+
+      /*
+        ```````````````````````
+        ANIMATION FADE-IN TEXT
+
+        ```````````````````````
+      */
+
+      .animatedText {
+            background-repeat: no-repeat;
+            background-position: left top;
+            -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeInText {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeInText {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         .fadeInText {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }
+
+
+
+     </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <div id="progress">     
+      <div class="outDiv">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <img
+          class = "animated fadeIn"
+          src="%PUBLIC_URL%/performate.png" width="32%" height="auto" alt="logo" 
+        />
+        <br />
+        <br />
+        <div class="animatedText fadeInText">
+          <progress class="pure-material-progress-linear" />
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

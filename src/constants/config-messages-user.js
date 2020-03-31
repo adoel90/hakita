@@ -1,0 +1,1 @@
+export const MessageErrorValidationEmail = 'Error ! Email tidak valid'
