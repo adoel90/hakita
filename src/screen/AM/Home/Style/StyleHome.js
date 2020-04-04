@@ -90,7 +90,7 @@ export const styles = theme => ({
 
         fontFamily:'Nunito',
         textTransform: 'capitalize',
-        color: '#d64253',
+        color: '#1a237e',
         borderWidth: 0,
         '&:hover' : {
           borderWidth: 0,

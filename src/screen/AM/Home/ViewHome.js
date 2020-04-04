@@ -62,7 +62,7 @@ const ViewHome = () => {
                         alt='logo-text' 
                         // className={classes.logoText} 
                         style={{
-                            
+
                             width: 124,
                             height: 48
 
@@ -71,42 +71,54 @@ const ViewHome = () => {
                 </Box>
 
                 <Box marginRight={theme.spacing(0.5)}>
-                    <Typography 
-                        onClick={() => navigate('/home')}
-                        variant='subtitle1' className={classes.title} style={{cursor: 'pointer'}}>
-                    Home
-                    </Typography>  
+                    <Button variant='outlined' className={classes.buttonOutlined}>
+
+                        <Typography 
+                            onClick={() => navigate('/home')}
+                            variant='subtitle1' className={classes.title} style={{cursor: 'pointer', color: 'black'}}>
+                                Home
+                        </Typography>  
+                    </Button>
                 </Box>   
 
                 <Box marginRight={theme.spacing(0.5)}>
-                    <Typography 
-                        onClick={() => navigate('/home/about')}
-                        variant='subtitle1' className={classes.title} style={{cursor: 'pointer'}}>
-                        About
-                    </Typography>  
+                    <Button variant='outlined' className={classes.buttonOutlined}>
+                        <Typography 
+                            onClick={() => navigate('/home/about')}
+                            variant='subtitle1' className={classes.title} style={{cursor: 'pointer', color: 'black'}}>
+                            About
+                        </Typography>  
+                    </Button>
+
                 </Box>   
 
                 <Box marginRight={theme.spacing(0.5)}>
-                    <Typography 
-                        onClick={() => navigate('/home/services')}
-                        variant='subtitle1' className={classes.title} style={{cursor: 'pointer'}}>
-                    Services
-                    </Typography>  
+                    <Button variant='outlined' className={classes.buttonOutlined}>
+                        <Typography 
+                            onClick={() => navigate('/home/services')}
+                            variant='subtitle1' className={classes.title} style={{cursor: 'pointer', color: 'black'}}>
+                            Services
+                        </Typography>  
+                    </Button>
                 </Box>   
 
                 <Box marginRight={theme.spacing(0.5)}>
-                    <Typography 
-                        onClick={() => navigate('/home/blog')}
-                        variant='subtitle1' className={classes.title} style={{cursor: 'pointer'}}>
-                        Blog
-                    </Typography>  
+                    <Button variant='outlined' className={classes.buttonOutlined}>
+                        <Typography 
+                            onClick={() => navigate('/home/blog')}
+                            variant='subtitle1' className={classes.title} style={{cursor: 'pointer', color: 'black'}}>
+                            Blog
+                        </Typography>  
+                    </Button>
                 </Box>                      
                 <Box marginRight={theme.spacing(0.5)}>
-                    <Typography 
-                        onClick={() => navigate('/home/contact')}
-                        variant='subtitle1' className={classes.title} style={{cursor: 'pointer'}}>
-                        Contact
-                    </Typography>                           
+                    <Button variant='outlined' className={classes.buttonOutlined}>
+                        <Typography 
+                            onClick={() => navigate('/home/contact')}
+                            variant='subtitle1' className={classes.title} style={{cursor: 'pointer', color: 'black'}}>
+                            Contact
+                        </Typography>                           
+                    </Button>
                 </Box>                
             </Toolbar>
 
