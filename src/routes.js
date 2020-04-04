@@ -55,7 +55,8 @@ export const routes = {
       </Fragment>
     ),
 
-    [ToHome]: () => ( 
+    // [ToHome]: () => ( 
+    '/home*': () => ( 
       
       <div>    
           <HeaderHome /> 

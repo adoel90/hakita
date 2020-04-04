@@ -103,10 +103,7 @@ const styles = theme => ({
 
         color: 'grey',
         fontFamily: 'Nunito'
-
-    },
-    
-
+    }
 })
 
 const ViewSignin = props => {
