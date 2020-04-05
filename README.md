@@ -16,3 +16,7 @@
 - mochamad_rachman@yahoo.com
 
 - 123456
+
+## Env
+
+- Node Js versi v10.15.2
