@@ -9,3 +9,10 @@
 3. yarn start/ npm start
 
 4. Akses http://localhost:3000
+
+
+## User untuk login 
+
+- mochamad_rachman@yahoo.com
+
+- 123456
